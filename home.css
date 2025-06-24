@@ -1,0 +1,195 @@
+
+.logo{
+   size:200px;
+   color:#F0F0F0;
+
+}
+
+.index_list{
+   size:20px;
+   family-font:"Alternate Gothic";
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   font-size:25px;
+}
+
+li{
+   list-style:none;
+   display:inline-block;
+
+}
+
+li a{
+  text-decoration:none;
+  color:#F0F0F0;
+  font-size:18px;
+  font-weight:bold;
+  margin-right:25px;
+}
+
+body{
+   background-image:url(background_restaurant.jpeg);
+   background-repeat:no-repeat;
+   background-position:center;
+   background-atachment:fixed;
+   background-size:cover;
+}
+
+
+
+.foot{
+
+
+  padding:40px;
+  color:#F0F0F0;
+  text-align:center;
+}
+
+.info1{
+   color:#F0F0F0;
+}
+
+.lista{
+   font-size:18px;
+
+
+}
+
+.info{
+  font-size:50px;
+}
+
+.color{
+   color:#F0F0F0;
+}
+
+
+
+
+
+footer{
+  padding: 20px 0;
+  text-align: center;
+  background-color: #2C2C2C;
+  font-family: 'Arial', sans-serif;
+  color: white;
+
+
+
+.image{
+   display:block;
+   margin-right:auto;
+   margin-left:auto;
+   background-color:#2C2C2C;
+
+}
+/*ipad*/
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav .lista ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+/*cellphone*/
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav .index_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lista ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+
+
+/*  Responsive for Tablet (iPads) */
+@media screen and (max-width: 1024px) {
+  .index_list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu-item, .contact-form, .about, .gallery img {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+
+/* Responsive  for Mobile Phones */
+@media screen and (max-width: 768px) {
+  .index_list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .menu-item, .contact-form, .about, .gallery img {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .menu h2,
+  #cart-section h2,
+  .cart-total {
+    font-size: 20px;
+  }
+
+  .lista ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+  button,
+  .remove-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+}
+
+

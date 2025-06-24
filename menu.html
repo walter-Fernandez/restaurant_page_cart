@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu - Ricolino</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!--<script scr="cart.js"></script>--><!--adding js on footer-->
+</head>
+<body>
+  <nav class="index_list">
+    <h1 class="logo">Ricolino</h1>
+    <div class="lista">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="menu">
+    <h2 style="color:#FFD700">Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item" data-name="Grilled Chicken Alfredo" data-price="14.99">Grilled Chicken Alfredo - $14.99</div>
+      <div class="menu-item" data-name="Beef Lasagna" data-price="13.49">Beef Lasagna - $13.49</div>
+      <div class="menu-item" data-name="Margherita Pizza" data-price="11.99">Margherita Pizza - $11.99</div>
+      <div class="menu-item" data-name="Spicy Shrimp Tacos" data-price="12.79">Spicy Shrimp Tacos - $12.79</div>
+      <div class="menu-item" data-name="Classic Cheeseburger" data-price="10.99">Classic Cheeseburger - $10.99</div>
+      <div class="menu-item" data-name="Vegetarian Stir-Fry" data-price="9.99">Vegetarian Stir-Fry - $9.99</div>
+      <div class="menu-item" data-name="Fresh Lemonade" data-price="2.99">Fresh Lemonade - $2.99</div>
+      <div class="menu-item" data-name="Iced Coffee" data-price="3.49">Iced Coffee - $3.49</div>
+      <div class="menu-item" data-name="Craft Beer" data-price="5.99">Craft Beer - $5.99</div>
+      <div class="menu-item" data-name="Mineral Water" data-price="1.99">Mineral Water - $1.99</div>
+      <div class="menu-item" data-name="Chocolate Lava Cake" data-price="6.49">Chocolate Lava Cake - $6.49</div>
+      <div class="menu-item" data-name="Classic Tiramisu" data-price="5.99">Classic Tiramisu - $5.99</div>
+    </div>
+  </section>
+
+  <section id="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart"></div>
+    <!--<p><strong>Total: $<span id="total">0</span></strong></p>-->
+    <p class="cart-total"><strong>Total: $<span id="total">0</span></strong></p>
+
+    <button onclick="clearCart()">Clear Cart</button>
+  </section>
+
+  <footer id="contact">
+    <div class="color">
+      <h1 style="font-family:Roman;">Ricolino</h1>
+      <div><a style="color:#F0F0F0" href="tel:(000)-235-6499">(913)-5551-1111</a></div>
+      <h3>9:30am-10am</h3>
+      <div class="info_1">
+        <ul class="info1">
+          <li><address>695 Park Ave, New York, NY 10065</address></li>
+        </ul>
+      </div>
+      <div class="foot">
+        <div class="info">
+          <a style="color:#F0F0F0" href="https://www.instagram.com/slavojzizeks/?hl=es"><i class="fab fa-instagram"></i></a>
+          <a style="color:#F0F0F0" href="https://www.tiktok.com/@roerestaurant?lang=es"><i class="fab fa-tiktok"></i></a>
+          <a style="color:#F0F0F0" href="https://x.com/elonmusk"><i class="fab fa-twitter"></i></a>
+          <a style="color:#F0F0F0" href="https://www.facebook.com/huntercollege/"><i class="fab fa-facebook"></i></a>
+          <a style="color:#F0F0F0" href="mailto:csoffice@qc.cuny.edu"><i class="fab fa-email"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>

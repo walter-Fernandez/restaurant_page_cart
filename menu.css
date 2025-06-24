@@ -1,0 +1,155 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fdfdfd;
+  box-sizing: border-box;
+}
+
+
+#menu {
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #fdfdfd;
+  display: block;
+}
+
+
+#menu h2 {
+  font-size: 32px;
+  color: #2C2C2C;
+  margin-bottom: 30px;
+}
+
+
+#menu table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#menu th, #menu td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#menu th {
+  background-color: #2C2C2C;
+  color: white;
+  font-size: 18px;
+}
+
+
+#menu td[colspan="2"] {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  #menu table {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  #menu h2 {
+    font-size: 26px;
+  }
+}
+
+/**/
+
+/*  CART STYLES  */
+
+.menu-item {
+  cursor: pointer;
+  background-color: #fff3cd;
+  padding: 10px;
+  margin: 5px auto;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.menu-item:hover {
+  background-color: #ffeeba;
+}
+
+#cart-section {
+  background-color: #2C2C2C;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#cart-section h2 {
+  color: #FFD700;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  color: #F0F0F0;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+}
+
+
+
+.remove-btn {
+  background-color: #FFD700;
+  color: #2C2C2C;
+  font-weight: bold;
+  padding: 4px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-btn:hover {
+  background-color: #e6c200;
+}
+
+/**/
+
+button {
+  background-color: #FFD700;
+  color: #2C2C2C;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+/**/
+
+.cart-total {
+  color: #F0F0F0;  Off-white, same as menu or footer text
+  font-size: 18px;
+  margin-top: 10px;
+}
+
